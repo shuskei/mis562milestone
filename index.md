@@ -1,16 +1,45 @@
-#### Disclaimer: All content on this site is for educational purposes only.
+### Disclaimer: All content on this site is for educational purposes only.
 
-## Industry Background
+## Table of Contents
 
-  * [Background of Industry](https://www.google.com)
+#### Industry Background
 
-  * [Threat Trends](anchor goes here)
+  * [Background of Industry](#background-of-industry)
+  * [Threat Trends](#threat-trends)
 
+#### Threat Modeling
 
+  * [Critical Asset Identification](#critical-asset-identification)
+  * [Diamond Models](#diamond-models)
+    * [Model No 1](#model-no-1)
+    * [Model No 2](#model-no-2)
+    * [Model No 3](#model-no-3)
+    * [Model No 4](#model-no-4)
+    * [Model No 5](#model-no-5)
+  * [Intelligence Buy In](#intelligence-buy-in)
 
+#### [About Me](#about-me)
 
-<h3><details><summary>> Threat Modeling</summary><ul><li>Critical Asset Identification</li><li>Diamond Models</li><ul><li>Model No. 1</li><li>Model No. 2</li><li>Model No. 3</li><li>Model No. 4</li><li>Model No. 5</li></ul><li>Intelligence Buy-In</li></ul></details></h3>
+## Background of Industry
 
-<h3><a href="https://www.google.com">About Me</a></h3>
+## Threat Trends
 
-updated 5/20/2021 @ 7:23 PM MST
+## Critical Asset Identification
+
+## Diamond Models
+
+### Model No 1
+
+### Model No 2
+
+### Model No 3
+
+### Model No 4
+
+### Model No 5
+
+## Intelligence Buy In
+
+## About Me
+
+updated 5/20/2021 @ 7:49 PM MST
