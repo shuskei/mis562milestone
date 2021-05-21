@@ -3,11 +3,13 @@
 #### Industry Background
 
   * [Background of Industry](#background-of-industry)
+
   * [Threat Trends](#threat-trends)
 
 #### Threat Modeling
 
   * [Critical Asset Identification](#critical-asset-identification)
+
   * [Diamond Models](#diamond-models)
     * [Model No 1](#model-no-1)
     * [Model No 2](#model-no-2)
@@ -16,7 +18,7 @@
     * [Model No 5](#model-no-5)
   * [Intelligence Buy In](#intelligence-buy-in)
 
-#### [About Me](#about-me)
+#### [About the Author](#about-me)
 
 ## Background of Industry
 
