@@ -1,5 +1,3 @@
-### Disclaimer: All content on this site is for educational purposes only.
-
 ## Table of Contents
 
 #### Industry Background
@@ -22,24 +20,44 @@
 
 ## Background of Industry
 
+[Back to Top](#table-of-contents)
+
 ## Threat Trends
+
+[Back to Top](#table-of-contents)
 
 ## Critical Asset Identification
 
+[Back to Top](#table-of-contents)
+
 ## Diamond Models
+
+[Back to Top](#table-of-contents)
 
 ### Model No 1
 
+[Back to Top](#table-of-contents)
+
 ### Model No 2
+
+[Back to Top](#table-of-contents)
 
 ### Model No 3
 
+[Back to Top](#table-of-contents)
+
 ### Model No 4
+
+[Back to Top](#table-of-contents)
 
 ### Model No 5
 
+[Back to Top](#table-of-contents)
+
 ## Intelligence Buy In
+
+[Back to Top](#table-of-contents)
 
 ## About Me
 
-updated 5/20/2021 @ 7:49 PM MST
+[Back to Top](#table-of-contents)
