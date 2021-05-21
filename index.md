@@ -1,7 +1,7 @@
 <details>
   <summary>Industry Background</summary>
-  * Background of Industry
-  * Threat Trends
+  <ul><li>Background of Industry</li>
+    <li>Threat Trends</li></ul>
 </details> | <details>
   <summary>Threat Modeling</summary>
   * Critical Asset Identification
