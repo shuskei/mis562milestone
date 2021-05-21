@@ -5,3 +5,5 @@
 ## <details><summary>Threat Modeling</summary><ul><li>Critical Asset Identification</li><li>Diamond Models</li><ul><li>Model No. 1</li><li>Model No. 2</li><li>Model No. 3</li><li>Model No. 4</li><li>Model No. 5</li></ul><li>Intelligence Buy-In</li></ul></details>
 
 ## [About Me](https://www.google.com)
+
+updated 5/20/2021 @ 6:58 PM MST
