@@ -53,7 +53,7 @@ The following table is the top 5 property / casualty insurers in the US in 2019 
 |Allstate Insurance Group|$39.20|
 |Liberty Mutual|$36.20|
 
-<br></br>
+<br>
 [Back to Top][]
 
 ## Threat Trends
@@ -68,13 +68,13 @@ Ransomware attacks are on the rise for insurance companies. Preventing them from
 
 Convenience tools have been known to be attacked as well. Recently, websites that provide “instant quotes” to customers were hacked by entering a few pieces of information about someone and being able to steal unredacted driver’s license numbers.
 
-<br></br>
+<br>
 [Back to Top][]
 
 ## Critical Asset Identification
 
 The following table lists 6 assets, their value to the company, what may occur as the result of a breach in that asset, and which user would be affected by such a breach.
-<br></br>
+<br>
 
 |Asset|Value|Breach Penalty|User|
 |---|---|---|---|
@@ -85,7 +85,7 @@ The following table lists 6 assets, their value to the company, what may occur a
 |Mobile apps|Allows the company to push notifications to users and provide convenient access to user account details|Loss of functionality in app results in customer frustration, loss of competitive advantage from other companies with better apps|Customer|
 |Network (servers and databases)|Automating communication and sending of information between underwriter and insurance agent|Loss of business time and revenue, impatient customers|Employees|
 
-<br></br>
+<br>
 [Back to Top][]
 
 ## Diamond Models
@@ -94,59 +94,53 @@ Diamond models are used to help show the relationship between an adversary (cybe
 
 ### Model No 1
 
-|![Diamond Model No 1](https://user-images.githubusercontent.com/84549135/119081907-d3481a80-b9b1-11eb-925f-694aed3b76a2.png)|
-|---|
+![Diamond Model No 1](https://user-images.githubusercontent.com/84549135/119081907-d3481a80-b9b1-11eb-925f-694aed3b76a2.png)
 
-
-<br></br>
+<br>
 [Back to Top][]
 
 ### Model No 2
 
-|![Diamond Model No 2](https://user-images.githubusercontent.com/84549135/119081956-f246ac80-b9b1-11eb-918b-0890f2bcc537.png)|
-|---|
+![Diamond Model No 2](https://user-images.githubusercontent.com/84549135/119081956-f246ac80-b9b1-11eb-918b-0890f2bcc537.png)
 
-<br></br>
+<br>
 [Back to Top][]
 
 ### Model No 3
 
-|![Diamond Model No 3](https://user-images.githubusercontent.com/84549135/119081986-012d5f00-b9b2-11eb-8dac-522833dc2835.png)|
-|---|
+![Diamond Model No 3](https://user-images.githubusercontent.com/84549135/119081986-012d5f00-b9b2-11eb-8dac-522833dc2835.png)
 
-<br></br>
+<br>
 [Back to Top][]
 
 ### Model No 4
 
-|![Diamond Model No 4](https://user-images.githubusercontent.com/84549135/119082016-0ee2e480-b9b2-11eb-86fc-7d9313c2c605.png)|
-|---|
+![Diamond Model No 4](https://user-images.githubusercontent.com/84549135/119082016-0ee2e480-b9b2-11eb-86fc-7d9313c2c605.png)
 
-<br></br>
+<br>
 [Back to Top][]
 
 ### Model No 5
 
-|![Diamond Model No 5](https://user-images.githubusercontent.com/84549135/119082047-1dc99700-b9b2-11eb-918b-04a1d6c57039.png)|
-|---|
+![Diamond Model No 5](https://user-images.githubusercontent.com/84549135/119082047-1dc99700-b9b2-11eb-918b-04a1d6c57039.png)
 
-<br></br>
+<br>
 [Back to Top][]
 
 ## Intelligence Buy In
 
 The largest data breach in insurance history was Anthem Inc in 2015. This data breach affected 79 million records and cost Anthem approximately $391.5 million. This comes out to about $5 per record stolen. Considering this all came from a simple spear phishing email, creating a CTI platform and training a user on how to spot phishing attempts could have saved this company close to $390 million. A CTI platform will help boost preventative measures against phishing by staying up to date on the latest phishing attempts and other techniques used by bad actors.
 
-<br></br>
+<br>
 [Back to Top][]
 
 ## About Me
 
 Dylan Todd is a student at the University of Arizona. He has an M.S. degree in Management Information Systems, and is currently working on his M.S. in Cybersecurity. He is the sole contributor to this project. Please send any comments or feedback to dylantodd@arizona.edu.
 
-<br></br>
+<br>
 [Back to Top][]
 
-Page last updated: 10:47 PM MST on 5/20/2021
+Page last updated: 10:49 PM MST on 5/20/2021
 
 [Back to top]: #table-of-contents
