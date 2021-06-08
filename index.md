@@ -1,6 +1,6 @@
 ## Table of Contents
 
-#### Industry Background
+#### Insurance Industry Background
 
   * [Background of Industry](#background-of-industry)
 
@@ -16,9 +16,20 @@
     * [Model No 3](#model-no-3)
     * [Model No 4](#model-no-4)
     * [Model No 5](#model-no-5)
+
   * [Intelligence Buy In](#intelligence-buy-in)
 
+#### Data Colletion
+
+  * [Data Sources](#data-sources)
+
+  * [Data Collection Strategies](#data-collection-strategies)
+
+  * [Data Collection Summary](#data-collection-summary)
+
 #### [About the Author](#about-me)
+
+# Insurance Industry Background
 
 ## Background of Industry
 
@@ -70,6 +81,8 @@ Convenience tools have been known to be attacked as well. Recently, websites tha
 
 <br>
 [Back to Top][]
+
+# Threat Modeling
 
 ## Critical Asset Identification
 
@@ -133,6 +146,14 @@ The largest data breach in insurance history was Anthem Inc in 2015. This data b
 
 <br>
 [Back to Top][]
+
+# Data Collection
+
+## Data Sources
+
+## Data Collection Strategies
+
+## Data Collection Summary
 
 ## About Me
 
