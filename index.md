@@ -19,9 +19,9 @@
 
   * [Intelligence Buy In](#intelligence-buy-in)
 
-#### Data Colletion
+#### Data Collection
 
-  * [Data Sources](#data-sources)
+  * [Data Sources Used](#data-sources-used)
 
   * [Data Collection Strategies](#data-collection-strategies)
 
@@ -149,7 +149,7 @@ The largest data breach in insurance history was Anthem Inc in 2015. This data b
 
 # Data Collection
 
-## Data Sources
+## Data Sources Used
 
 I will write about data sources here.
 
@@ -166,6 +166,26 @@ I will write about strategies here.
 ## Data Collection Summary
 
 I will write a summary here.
+
+<br>
+[Back to Top][]
+
+# Data Sources
+
+## Some Data Source #1
+
+Description of data - where it come from, how much data I have
+
+Data itself (50 rows minimum)
+
+<br>
+[Back to Top][]
+
+## Some Data Source #2
+
+Description of data - where it come from, how much data I have
+
+Data itself (50 rows minimum)
 
 <br>
 [Back to Top][]
