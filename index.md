@@ -151,9 +151,24 @@ The largest data breach in insurance history was Anthem Inc in 2015. This data b
 
 ## Data Sources
 
+I will write about data sources here.
+
+<br>
+[Back to Top][]
+
 ## Data Collection Strategies
 
+I will write about strategies here.
+
+<br>
+[Back to Top][]
+
 ## Data Collection Summary
+
+I will write a summary here.
+
+<br>
+[Back to Top][]
 
 ## About Me
 
@@ -162,6 +177,6 @@ Dylan Todd is a student at the University of Arizona. He has an M.S. degree in M
 <br>
 [Back to Top][]
 
-Page last updated: 10:49 PM MST on 5/20/2021
+Page last updated: 7:01 PM MST on 06/07/2021
 
 [Back to top]: #table-of-contents
