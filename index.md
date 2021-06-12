@@ -25,8 +25,6 @@
 
   * [Data Collection Strategies](#data-collection-strategies)
 
-  * [Data Collection Summary](#data-collection-summary)
-
   * [Data Samples](#data-samples)
     * [Censys](#censys-host-search)
     * [HostIntel](#hostintel-aggregator)
@@ -155,21 +153,32 @@ The largest data breach in insurance history was Anthem Inc in 2015. This data b
 
 ## Data Sources Used
 
-I will write about data sources here.
+#### Censys
+
+Censys is a search engine for internet connected devices. Censys performs scans on the internet daily to collect data about the types of devices are open and available for communication. This data is stored and freely available for querying by the public. Services such as this are compared to being a “google search engine for the internet of things”. Censys offers an API via Python to query its database and allow exporting of results to CSV and JSON. Users can query for:
+
+* IPv4 Addresses
+* Websites found on the Alexa One Million
+* Certificates
+
+The primary reason Censys was chosen, is because it boasts a highly functional and easy to use search feature to enhance data gathering techniques. This search tool was used to gather IP addresses for only those devices that are in the US, were updated within the last 2 years, and contain “insurance group” in the record. The purpose for using these search terms is to gather a list of IP addresses to plug into HostIntel, discussed next. Query structure used in the API:
+
+* “insurance group” and location.country:”United States” and updated_at > 2019-06-11
+
+#### HostIntel
+
+HostIntel is a Python crawling tool developed by Keith Jones. This tool allows you to specific API keys for various intel resources, along with a list of IP addresses, and then crawl through each intel resource for each IP gathering various bits of data. These keys and IP addresses are configured into a few text files, and then a Python script is run to automate pulling data from the sources based on the IPs provided.
+
+HostIntel makes acquiring data from multiple sources easy. HostIntel also allows you to configure your own modules for additional threat intelligence sources. These modules are added by adding new Python scripts for a given module, then calling that script from the main hostintel.py script. This function also allows you to remove threat intelligence sources that may not be useful. Lastly, the data gathered from HostIntel enables us to use machine learning to find trends in devices on the internet.
 
 <br>
 [Back to Top][]
 
 ## Data Collection Strategies
 
-I will write about strategies here.
+Censys was used as our initial query to gather a list of IP addresses to inspect with HostIntel. We used the search term “insurance group” to avoid finding results related to just “insurance”. For example, “insurance” pulled up results related to real estate companies, lawyers, etc. The purpose of this platform is to only look for data related to other insurance groups. This data was pulled using the API and only requesting for specific fields (see [Censys Host Search](#censys-host-search) data sample below).
 
-<br>
-[Back to Top][]
-
-## Data Collection Summary
-
-I will write a summary here.
+The list of IP addresses from Censys was then used to perform the HostIntel search. This search aggregated data across VirusTotal, PassiveTotal, Shodan, and ThreatCrowd, and AlienVault. Once the data was combined, Censys data was appended into the master file. The result was then passed into a database for storing and further analysis.
 
 <br>
 [Back to Top][]
@@ -178,7 +187,9 @@ I will write a summary here.
 
 ## Censys Host Search
 
-Description of data - where it come from, how much data I have
+The table below is a snippet of the data stored in the database from the initial Censys Host Search. This data is later appended to the end of the HostIntel file. We have stored 846 data points. The primary reason this number is low is due to the limit of the API restricting how much data can be pulled. A search on the Censys reveals our query pulls around 7,000+ devices.
+
+[censysresults_adjusted_v2.xlsx](https://github.com/shuskei/mis562milestone/files/6641826/censysresults_adjusted_v2.xlsx)
 
 Data itself (50 rows minimum)
 
