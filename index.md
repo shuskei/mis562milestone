@@ -27,6 +27,10 @@
 
   * [Data Collection Summary](#data-collection-summary)
 
+  * [Data Samples](#data-samples)
+    * [Censys](#censys-host-search)
+    * [HostIntel](#hostintel-aggregator)
+
 #### [About the Author](#about-me)
 
 # Insurance Industry Background
@@ -170,9 +174,9 @@ I will write a summary here.
 <br>
 [Back to Top][]
 
-# Data Sources
+# Data Samples
 
-## Some Data Source #1
+## Censys Host Search
 
 Description of data - where it come from, how much data I have
 
@@ -181,7 +185,7 @@ Data itself (50 rows minimum)
 <br>
 [Back to Top][]
 
-## Some Data Source #2
+## HostIntel Aggregator
 
 Description of data - where it come from, how much data I have
 
