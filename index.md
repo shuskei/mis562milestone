@@ -29,6 +29,20 @@
     * [Censys](#censys-host-search)
     * [HostIntel](#hostintel-aggregator)
 
+#### Data Analytics
+
+  * [Anomaly Detection](#anomaly-detection)
+
+  * [IP Reputation](#ip-reputation)
+
+  * [Shodan Tag Correlation](#shodan-tag-correlation)
+
+#### Visual Aids
+
+  * [Censys Port Cloud](#censys-port-cloud)
+  
+  * [IP Location](#ip-location)
+
 #### [About the Author](#about-me)
 
 # Insurance Industry Background
@@ -301,6 +315,59 @@ The table below is a snippet of the data stored in the database from the HostInt
 |96.83.208.170  |0        |0               |https://www.virustotal.com/en/ip-address/96.83.208.170/information/  |FALSE                 |FALSE                         |0           |0               |                                      |https://www.shodan.io/host/96.83.208.170  |https://www.threatcrowd.org/ip.php?ip=96.83.208.170  |0                           |0                                |0                               |https://otx.alienvault.com/indicator/ip/96.83.208.170  |http://whois.domaintools.com/96.83.208.170  |504                 |
 |66.195.73.150  |0        |0               |https://www.virustotal.com/en/ip-address/66.195.73.150/information/  |FALSE                 |FALSE                         |0           |0               |                                      |https://www.shodan.io/host/66.195.73.150  |https://www.threatcrowd.org/ip.php?ip=66.195.73.150  |0                           |0                                |0                               |https://otx.alienvault.com/indicator/ip/66.195.73.150  |http://whois.domaintools.com/66.195.73.150  |0                   |
 |204.132.81.133 |0        |0               |https://www.virustotal.com/en/ip-address/204.132.81.133/information/ |FALSE                 |FALSE                         |0           |0               |self-signed                           |https://www.shodan.io/host/204.132.81.133 |https://www.threatcrowd.org/ip.php?ip=204.132.81.133 |0                           |0                                |0                               |https://otx.alienvault.com/indicator/ip/204.132.81.133 |http://whois.domaintools.com/204.132.81.133 |517                 |
+
+<br>
+[Back to Top][]
+
+# Data Analytics
+
+## Anomaly Detection
+
+The open ports for each IP listed by Shodan were processed through R to find if any had outlying ports. This provides two pieces of intelligence: first, it shows the common ports used by others in the industry, giving an idea of what technology is commonly used; and second, it shows us those IP addresses that do not have a common port configuration, which could hint at the necessity of performing an in-depth review on those addresses. Each IP was associated with each of its open ports in a 1:1 format, and then ran through the anomalize() function in R to produce outlying open ports.
+
+<br>
+[Back to Top][]
+
+## IP Reputation
+
+IP Reputation analysis was performed through AlienVault OTX and Virus Total. Understanding the common malicious IP addresses is a great first step to avoid the already well-known sources of attacks companies can face. HostIntel was used to feed each IP address through both services, and the results were examined for any with a negative reputation. Alternative methods would be to gather a list of IP addresses that attempt to communicate with a network, and run that list through HostIntel / OTX / VirusTotal to get a daily view of any potential attacks.
+
+<br>
+[Back to Top][]
+
+## Shodan Tag Correlation
+
+Analyze Shodan Tags to search for links between bad reputation IP’s and those picked up in Anomaly Detection. Provides another avenue to investigate IP addresses with based on their tag in Shodan. Run correlation tests on IP address, Shodan Tag, and reputation information from OTX / VirusTotal. R was used to see if there is any correlation between irreputable IP addresses and their Shodan Tags.
+
+<br>
+[Back to Top][]
+
+# Visual Aids
+
+## Censys Port Cloud
+
+![Shows common ports / protocols used by Censys IP results.](https://user-images.githubusercontent.com/84549135/123334512-14bf6e80-d4f8-11eb-9cba-8d048e53efd4.png)
+
+
+<br>
+[Back to Top][]
+
+## IP Location
+
+![Provides a geo-spatial overview of all IP addresses from Censys results](https://user-images.githubusercontent.com/84549135/123334527-1a1cb900-d4f8-11eb-8529-fea3573ec247.png)
+
+<br>
+[Back to Top][]
+
+# Key Insights
+
+The analytics performed give us a few useful insights:
+
+* Understanding of ports, both common and those potentially used for malicious attacks
+* Comprehensive view of reputable and irreputable IP addresses
+* Ability to identify malicious IP addresses based on Shodan Tags
+
+IP location data can be viewed over time to see if there are trends in movement in the industry, and/or ability to block potentially malicious IP addresses based on common locations.
 
 <br>
 [Back to Top][]
