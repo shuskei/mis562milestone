@@ -1,12 +1,12 @@
 ## Table of Contents
 
-#### Insurance Industry Background
+#### [Insurance Industry Background](#insurance-industry-background)
 
   * [Background of Industry](#background-of-industry)
 
   * [Threat Trends](#threat-trends)
 
-#### Threat Modeling
+#### [Threat Modeling](#threat-modeling)
 
   * [Critical Asset Identification](#critical-asset-identification)
 
@@ -19,7 +19,7 @@
 
   * [Intelligence Buy In](#intelligence-buy-in)
 
-#### Data Collection
+#### [Data Collection](#data-collection)
 
   * [Data Sources Used](#data-sources-used)
 
@@ -29,7 +29,7 @@
     * [Censys](#censys-host-search)
     * [HostIntel](#hostintel-aggregator)
 
-#### Data Analytics
+#### [Data Analytics](#data-analytics)
 
   * [Anomaly Detection](#anomaly-detection)
 
@@ -37,11 +37,13 @@
 
   * [Shodan Tag Correlation](#shodan-tag-correlation)
 
-#### Visual Aids
+#### [Visual Aids](#visual-aids)
 
   * [Censys Port Cloud](#censys-port-cloud)
   
   * [IP Location](#ip-location)
+
+#### [Key Insights](#key-insights)
 
 #### [About the Author](#about-me)
 
