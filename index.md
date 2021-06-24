@@ -1,12 +1,12 @@
 ## Table of Contents
 
-#### [Insurance Industry Background](#insurance-industry-background)
+#### Insurance Industry Background
 
   * [Background of Industry](#background-of-industry)
 
   * [Threat Trends](#threat-trends)
 
-#### [Threat Modeling](#threat-modeling)
+#### Threat Modeling
 
   * [Critical Asset Identification](#critical-asset-identification)
 
@@ -19,7 +19,7 @@
 
   * [Intelligence Buy In](#intelligence-buy-in)
 
-#### [Data Collection](#data-collection)
+#### Data Collection
 
   * [Data Sources Used](#data-sources-used)
 
@@ -29,21 +29,21 @@
     * [Censys](#censys-host-search)
     * [HostIntel](#hostintel-aggregator)
 
-#### [Data Analytics](#data-analytics)
+#### Data Analytics
 
   * [Anomaly Detection](#anomaly-detection)
 
   * [IP Reputation](#ip-reputation)
 
   * [Shodan Tag Correlation](#shodan-tag-correlation)
+  
+  * [Key Insights](#key-insights)
 
-#### [Visual Aids](#visual-aids)
+#### Visual Aids
 
   * [Censys Port Cloud](#censys-port-cloud)
   
   * [IP Location](#ip-location)
-
-#### [Key Insights](#key-insights)
 
 #### [About the Author](#about-me)
 
@@ -344,24 +344,7 @@ Analyze Shodan Tags to search for links between bad reputation IP’s and those 
 <br>
 [Back to Top][]
 
-# Visual Aids
-
-## Censys Port Cloud
-
-![Shows common ports / protocols used by Censys IP results.](https://user-images.githubusercontent.com/84549135/123334512-14bf6e80-d4f8-11eb-9cba-8d048e53efd4.png)
-
-
-<br>
-[Back to Top][]
-
-## IP Location
-
-![Provides a geo-spatial overview of all IP addresses from Censys results](https://user-images.githubusercontent.com/84549135/123334527-1a1cb900-d4f8-11eb-8529-fea3573ec247.png)
-
-<br>
-[Back to Top][]
-
-# Key Insights
+## Key Insights
 
 The analytics performed give us a few useful insights:
 
@@ -370,6 +353,23 @@ The analytics performed give us a few useful insights:
 * Ability to identify malicious IP addresses based on Shodan Tags
 
 IP location data can be viewed over time to see if there are trends in movement in the industry, and/or ability to block potentially malicious IP addresses based on common locations.
+
+# Visual Aids
+
+## Censys Port Cloud
+
+![image](https://user-images.githubusercontent.com/84549135/123334512-14bf6e80-d4f8-11eb-9cba-8d048e53efd4.png)
+
+Shows common ports / protocols used by Censys IP results.
+
+<br>
+[Back to Top][]
+
+## IP Location
+
+![image](https://user-images.githubusercontent.com/84549135/123334527-1a1cb900-d4f8-11eb-8529-fea3573ec247.png)
+
+Provides a geo-spatial overview of all IP addresses from Censys results
 
 <br>
 [Back to Top][]
