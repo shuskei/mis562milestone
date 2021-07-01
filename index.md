@@ -45,6 +45,14 @@
   
   * [IP Location](#ip-location)
 
+#### Outcome
+
+  * [Conclusion](#conclusion)
+  
+  * [Operational Intelligence](#operational-intelligence)
+  
+  * [Potential Upgrades](#potential-upgrades)
+
 #### [About the Author](#about-me)
 
 # Insurance Industry Background
@@ -395,6 +403,35 @@ Shows common ports / protocols used by Censys IP results.
 ![image](https://user-images.githubusercontent.com/84549135/123334527-1a1cb900-d4f8-11eb-8529-fea3573ec247.png)
 
 Provides a geo-spatial overview of all IP addresses from Censys results
+
+<br>
+[Back to Top][]
+
+# Outcome
+
+## Conclusion
+
+1. Most common ports used were HTTP & HTTPS, indicating web servers should be put on tight security and logs monitored closely, as they are the most common attack vector.
+2. Most IP addresses had good reputations, with access to more data, more information could be gathered.
+3. Since the IP address selection was so small, trends were hard to find in Shodan Tags. Most notable trend was the sheer number of cloud addresses, which is correlated with the large number of web server hosts, further enforcing the tight security on web servers.
+
+<br>
+[Back to Top][]
+
+## Operational Intelligence
+
+* Since most of the discovered intel revolved around web servers, sharing the results among the admin of the server would be the most appropriate party to receive the information.
+  * Add more mitigation techniques to the web server’s security (i.e., more strict password requirements on users, user logging, use most restrictive access security settings)
+* Future prioritization for CTI would be to investigate malicious IP addresses and focus on monitoring for potential attacks on sensitive customer information via web servers.
+
+<br>
+[Back to Top][]
+
+## Potential Upgrades
+
+* Access to more data would assist in being able to provide a better trend analysis.
+* Connecting to an internal network’s list of IP addresses attempting to communicate would enable real-time reporting on the reputation of said IP addresses.
+* Hooks into a web server to make a dashboard regarding user logins to the web server would enable efficient and easy reporting on this CTI platform, as well as providing reporting on the status of the web servers.
 
 <br>
 [Back to Top][]
