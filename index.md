@@ -334,7 +334,7 @@ The table below is a snippet of the data stored in the database from the HostInt
   * First, it shows the common ports used by others in the industry, giving an idea of what technology is commonly used
   * Second, it shows us those IP addresses that do not have a common port configuration, which could lead to us performing an IP reputation scan and blocking the IP address.
 
-\*\ anomalize function is from CRAN package in R
+\* anomalize function is from CRAN package in R
 
 <br>
 [Back to Top][]
@@ -406,6 +406,6 @@ Dylan Todd is a student at the University of Arizona. He has an M.S. degree in M
 <br>
 [Back to Top][]
 
-Page last updated: 7:01 PM MST on 06/07/2021
+Page last updated: 12:00 AM 2021-07-01
 
 [Back to top]: #table-of-contents
