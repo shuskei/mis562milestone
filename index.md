@@ -325,21 +325,43 @@ The table below is a snippet of the data stored in the database from the HostInt
 
 ## Anomaly Detection
 
-The open ports for each IP listed by Shodan were processed through R to find if any had outlying ports. This provides two pieces of intelligence: first, it shows the common ports used by others in the industry, giving an idea of what technology is commonly used; and second, it shows us those IP addresses that do not have a common port configuration, which could hint at the necessity of performing an in-depth review on those addresses. Each IP was associated with each of its open ports in a 1:1 format, and then ran through the anomalize() function in R to produce outlying open ports.
+#### Technique
+* The open ports for each IP listed by Shodan were processed through R to find if any had outlying ports
+* Each IP was associated with each of its open ports in a 1:1 format, and then ran through the anomalize()* function in R to produce outlying open ports
+
+#### Justification
+* This provides two pieces of intelligence
+  * First, it shows the common ports used by others in the industry, giving an idea of what technology is commonly used
+  * Second, it shows us those IP addresses that do not have a common port configuration, which could lead to us performing an IP reputation scan and blocking the IP address.
+
+\*\ anomalize function is from CRAN package in R
 
 <br>
 [Back to Top][]
 
 ## IP Reputation
 
-IP Reputation analysis was performed through AlienVault OTX and Virus Total. Understanding the common malicious IP addresses is a great first step to avoid the already well-known sources of attacks companies can face. HostIntel was used to feed each IP address through both services, and the results were examined for any with a negative reputation. Alternative methods would be to gather a list of IP addresses that attempt to communicate with a network, and run that list through HostIntel / OTX / VirusTotal to get a daily view of any potential attacks.
+#### Technique
+* IP Reputation analysis was performed through AlienVault OTX and Virus Total
+* Understanding the common malicious IP addresses is a great first step to avoid the already well-known sources of attacks companies can face
+* HostIntel was used to feed each IP address through both services, and the results were examined for any with a negative reputation
+
+#### Justification
+* The IP addresses with bad reputations should be blocked
+* Alternative methods would be to gather a list of IP addresses that attempt to communicate with a network, and run that list through HostIntel / OTX / VirusTotal to get a daily view of any potential attack
 
 <br>
 [Back to Top][]
 
 ## Shodan Tag Correlation
 
-Analyze Shodan Tags to search for links between bad reputation IP’s and those picked up in Anomaly Detection. Provides another avenue to investigate IP addresses with based on their tag in Shodan. Run correlation tests on IP address, Shodan Tag, and reputation information from OTX / VirusTotal. R was used to see if there is any correlation between irreputable IP addresses and their Shodan Tags.
+#### Technique
+* Analyze Shodan Tags to search for links between bad reputation IP’s and those picked up in Anomaly Detection
+* Provides another avenue to investigate IP addresses with based on their tag in Shodan
+* Run correlation tests on IP address, Shodan Tag, and reputation information from OTX / VirusTotal
+
+#### Justification
+* R was used to see if there is any correlation between irreputable IP addresses and their Shodan Tags
 
 <br>
 [Back to Top][]
@@ -353,6 +375,9 @@ The analytics performed give us a few useful insights:
 * Ability to identify malicious IP addresses based on Shodan Tags
 
 IP location data can be viewed over time to see if there are trends in movement in the industry, and/or ability to block potentially malicious IP addresses based on common locations.
+
+<br>
+[Back to Top][]
 
 # Visual Aids
 
